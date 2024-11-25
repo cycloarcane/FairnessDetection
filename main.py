@@ -10,7 +10,7 @@ from PIL import Image
 import os
 
 # 设置代理
-set_proxy()
+# set_proxy()
 device = "cuda:0"
 
 # 加载BLIP模型和处理器

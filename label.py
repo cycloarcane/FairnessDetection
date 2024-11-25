@@ -6,7 +6,7 @@ import torch
 from proxy_config import set_proxy
 
 # 设置代理
-set_proxy()
+# set_proxy()
 
 
 def simple_label(label):
@@ -46,6 +46,7 @@ def predict_image_from_url(url):
 
 # Example usage
 if __name__ == "__main__":
-    url = "/lab/kirito/data/CNNspot_test/test/cyclegan/apple/1_fake/n07749192_721_fake.png"
+    print("Starting image prediction...")
+    url = "./testimage.jpeg"
     predicted_class = predict_image_from_url(url)
     print(f"Predicted class: {predicted_class}")
